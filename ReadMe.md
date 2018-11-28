@@ -37,6 +37,7 @@ QSqlQuery QtSqliteDb::Query(QString query)
         db.rollback();
     }
 }
+```
 
 　`QSqlError`というやつ。
 
